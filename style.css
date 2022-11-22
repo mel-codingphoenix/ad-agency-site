@@ -20,6 +20,23 @@ section {
     padding: 10px 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a h1 {
+    color: #e4b373;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+a h1 span {
+    color: #ffc069;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
 /* Navbar */
 
 nav {
@@ -28,25 +45,13 @@ nav {
     width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
 nav a h1 {
-    font-size: 1rem;
     float: left;
     margin-left: 25px;
     line-height: 30px;
     color: #e4b373;
     text-transform: uppercase;
     font-size: 1.5rem;
-    font-family: cursive;
-}
-
-nav a h1 span {
-    color: #ffc069;
-    text-transform: uppercase;
-    font-size: 2rem;
     font-family: cursive;
 }
 
@@ -70,7 +75,6 @@ nav ul li a {
 /* Header Section */
 
 header {
-    height: 50vh;
     background-color: #4a403a;
     width: 100%;
     display: flex;
@@ -80,7 +84,7 @@ header {
 
 header div {
     margin: 0 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 header div p {
@@ -169,3 +173,4 @@ header div p {
     border-radius: 10px;
     background-color: #ffc069;
 }
+
