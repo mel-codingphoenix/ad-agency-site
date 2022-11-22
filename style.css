@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&family=Pacifico&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #4a403a;
+    font-weight: 800;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navbar */
+
+nav {
+    height: 80px;
+    background-color: #4a403a;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a h1 {
+    font-size: 1rem;
+    float: left;
+    margin-left: 25px;
+    line-height: 30px;
+    color: #e4b373;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+nav a h1 span {
+    color: #ffc069;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffc069;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Header Section */
+
+header {
+    height: 50vh;
+    background-color: #4a403a;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div {
+    margin: 0 20px;
+    padding: 10px;
+}
+
+header div p {
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+/* Portfolio Section */
+#portfolio .works { 
+    margin: 0 10px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#portfolio .image {
+    background-color: #4a403a;
+    width: 400px;
+    flex: 40%;
+}
+
+#portfolio .image img {
+    width: 100%;
+}
+
+#portfolio .image h2 {
+    text-align: start;
+    margin: 0;
+    font-size: 1rem;
+    padding: 10px;
+    color: #ffc069;
+}
+
+#portfolio .image .description {
+    font-size: 1.3rem;
+}
+
+/* Process Section */
+#process .process {
+    margin: 0 10px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 20%;
+    gap: 10px;
+    padding: 10px;
+}
+#process .info {
+    width: 400px;
+    flex: 20%;
+}
+#process .process h2 {
+    color: #ffc069;
+    font-weight: 800;
+}
+
+/* Testimonial section */
+#review {
+    width: 85%;
+    background-color: #4a403a;
+    margin: 10px auto;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#review .review {
+    width: 30%;
+    text-align: left;
+    color: whitesmoke;
+}
+
+/* Prompt Section */
+#cta h2 {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #4a403a;
+    font-weight: 700;
+}
+#cta button {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 1px solid #4a403a;
+    border-radius: 10px;
+    background-color: #ffc069;
+}
